@@ -1,12 +1,15 @@
 // Service Worker: macht die App offline nutzbar.
 // Strategie: Netzwerk zuerst (damit Aktualisierungen sofort ankommen), bei fehlender Verbindung
 // der zwischengespeicherte Stand. Beim Installieren werden App und alle Lerninhalte vorgeladen.
-const CACHE = 'lernprogramm-v1';
+// BUILD wird beim Veröffentlichen gesetzt. Jede neue Version bekommt so einen eigenen Offline-Speicher.
+const BUILD = 'dev';
+const CACHE = 'lernprogramm-' + BUILD;
+const LIB = 'lernprogramm-lib';
 const CORE = [
   './', './index.html', './manifest.webmanifest', './config.js', './version.js', './css/app.css',
   './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
   './js/main.js', './js/util.js', './js/md.js', './js/db.js', './js/store.js', './js/content.js', './js/grading.js',
-  './js/learning.js', './js/sync.js', './js/supabase.js', './js/ui.js', './js/sheetgen.js', './js/planner.js', './js/tasks-ui.js', './js/charts.js',
+  './js/learning.js', './js/sync.js', './js/supabase.js', './js/ui.js', './js/sheetgen.js', './js/planner.js', './js/tasks-ui.js', './js/charts.js', './js/update.js',
   './js/views/dashboard.js', './js/views/learn.js', './js/views/cards.js', './js/views/practice.js', './js/views/sheets.js',
   './js/views/grades.js', './js/views/plan.js', './js/views/materials.js', './js/views/lexicon.js', './js/views/search.js',
   './js/views/mistakes.js', './js/views/coverage.js', './js/views/settings.js',
@@ -27,9 +30,11 @@ self.addEventListener('install', (e) => {
   })());
 });
 
+self.addEventListener('message', (e) => { if (e.data === 'skipWaiting') self.skipWaiting(); });
+
 self.addEventListener('activate', (e) => {
   e.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k !== CACHE && k !== CACHE + '-lib' && k.startsWith('lernprogramm-')) await caches.delete(k);
+    for (const k of await caches.keys()) if (k !== CACHE && k !== LIB && k.startsWith('lernprogramm-')) await caches.delete(k);
     await self.clients.claim();
   })());
 });
@@ -63,7 +68,7 @@ async function networkFirst(req) {
   }
 }
 async function cacheFirst(req) {
-  const c = await caches.open(CACHE + '-lib');
+  const c = await caches.open(LIB);
   const hit = await c.match(req);
   if (hit) return hit;
   const res = await fetch(req);

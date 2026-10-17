@@ -4,10 +4,10 @@ import * as C from './content.js';
 import * as sync from './sync.js';
 import { createSupabaseAdapter } from './supabase.js';
 import config from '../config.js';
-import { VERSION } from '../version.js';
-import { icon, logo, toast } from './ui.js';
+import { icon, logo, toast, dialog } from './ui.js';
 import { esc, fmtDateTime } from './util.js';
 import { idb } from './db.js';
+import * as upd from './update.js';
 
 const routes = {
   '': () => import('./views/dashboard.js'),
@@ -58,13 +58,14 @@ function shell() {
       <nav class="nav">${NAV.map((n) => `<a href="#/${n.r}" data-r="${n.r}">${icon(n.icon)}<span>${n.label}</span></a>`).join('')}</nav>
       <div class="grow"></div>
       <nav class="nav small"><a href="#/fehlerheft" data-r="fehlerheft">${icon('flag')}<span>Fehlerheft</span></a><a href="#/abdeckung" data-r="abdeckung">${icon('check')}<span>Abdeckung & Quellen</span></a></nav>
-      <div class="small" style="padding:10px 12px;color:#7d90a3">Version ${VERSION}</div>
+      <div class="small" style="padding:10px 12px;color:#7d90a3">Version ${esc(upd.versionLabel())}</div>
     </aside>
     <div class="main">
       <header class="topbar">
         <a class="btn icon ghost no-print" id="backBtn" href="javascript:history.back()" aria-label="Zurück" hidden>${icon('back')}</a>
         <div class="title" aria-live="polite"></div>
         <a class="btn icon ghost" href="#/suche" aria-label="Suche">${icon('search')}</a>
+        <button class="btn small primary" id="updBtn" type="button" hidden>${icon('sync')} <span>Update</span></button>
         <button class="status-pill" id="statusPill" type="button" aria-live="polite"><i></i><span>…</span></button>
       </header>
       <main id="main" class="content" tabindex="-1"></main>
@@ -76,6 +77,30 @@ function shell() {
   </nav>`;
   document.getElementById('moreBtn').onclick = openMore;
   document.getElementById('statusPill').onclick = () => go('#/einstellungen/daten');
+  document.getElementById('updBtn').onclick = askUpdate;
+}
+
+// Neue Version anzeigen und auf Wunsch installieren.
+export async function askUpdate() {
+  const a = upd.updateState.available;
+  if (!a) return;
+  const r = await dialog({
+    title: `Neue Version ${a.version}`,
+    body: `${a.changes.length ? `<p><b>Neu:</b></p><ul>${a.changes.map((c) => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}<p>Deine Daten (Noten, Fortschritt, Lernzettel, Materialien) bleiben erhalten. Die App lädt danach einmal neu.</p>`,
+    actions: [{ label: 'Später', value: 'later' }, { label: 'Jetzt aktualisieren', value: 'go', primary: true }]
+  });
+  if (r.value !== 'go') return;
+  const b = document.getElementById('updBtn');
+  if (b) { b.disabled = true; b.querySelector('span').textContent = 'Wird aktualisiert …'; }
+  try { await upd.applyUpdate(); }
+  catch (e) { toast(e?.message || String(e), 'bad'); if (b) { b.disabled = false; b.querySelector('span').textContent = 'Update'; } }
+}
+function showUpdateButton() {
+  const b = document.getElementById('updBtn');
+  if (!b) return;
+  const a = upd.updateState.available;
+  b.hidden = !a;
+  if (a) b.title = `Version ${a.version} ist verfügbar`;
 }
 
 function openMore() {
@@ -172,6 +197,10 @@ async function boot() {
   if (sync.getAdapter()?.ready()) sync.syncNow({ reason: 'start' }).then((r) => { if (r.ok && r.pulled) { C.rebuildAreas(); render(); } });
   registerSW();
   remind();
+  upd.onUpdate(showUpdateButton);
+  upd.startUpdateChecks();
+  const done = upd.justUpdated();
+  if (done) toast(`Aktualisiert auf Version ${done}. Deine Daten sind erhalten.`, 'ok');
 }
 
 // Erinnerung beim Start (nur wenn vom Nutzer aktiviert), höchstens einmal pro Tag.
@@ -197,7 +226,7 @@ function registerSW() {
     reg.addEventListener('updatefound', () => {
       const w = reg.installing;
       w?.addEventListener('statechange', () => {
-        if (w.state === 'installed' && navigator.serviceWorker.controller) toast('Eine neue Version ist bereit. Sie wird beim nächsten Start geladen.');
+        if (w.state === 'installed' && navigator.serviceWorker.controller) upd.checkForUpdate();
       });
     });
   }).catch((e) => console.warn('Service Worker nicht registriert:', e));

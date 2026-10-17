@@ -55,3 +55,13 @@ Warum ist der Publishable key kein Geheimnis? Er erlaubt ohne Anmeldung keinerle
 ## Speicher- und Synchronisationsstatus
 
 Oben rechts zeigt die App immer den echten Zustand: „Lokal gespeichert“, „Speichert …“, „Synchronisiert“, „Offline · 2 ausstehend“ oder „Sync-Fehler“. Ein Klick darauf öffnet Details. Erst wenn eine Speicherung tatsächlich abgeschlossen ist, wird sie als gespeichert gemeldet.
+
+## Updates installieren
+
+Neue Versionen (z. B. neue Lerneinheiten) musst du nicht neu herunterladen oder neu installieren.
+
+1. Die App prüft beim Start und danach regelmäßig, ob es eine neue Version gibt.
+2. Wenn ja, erscheint oben neben der Statusanzeige der Knopf **Update**.
+3. Darauf tippen, kurz lesen, was neu ist, und **Jetzt aktualisieren** wählen. Die App lädt einmal neu.
+
+Deine Daten (Noten, Fortschritt, Lernzettel, Materialien) bleiben dabei erhalten. Vor dem Update werden offene Änderungen noch gespeichert und, falls angemeldet, synchronisiert. Von Hand prüfen kannst du unter **Einstellungen → Installation & Hilfe → Nach Updates suchen**. Dort steht auch die installierte Version.

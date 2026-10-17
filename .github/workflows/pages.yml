@@ -32,6 +32,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Versionsstempel setzen
+        run: |
+          BUILD="$(date -u +%Y%m%d-%H%M)-${GITHUB_SHA::7}"
+          sed -i "s/^export const BUILD = 'dev';/export const BUILD = '$BUILD';/" app/version.js
+          sed -i "s/^const BUILD = 'dev';/const BUILD = '$BUILD';/" app/sw.js
+          grep -q "$BUILD" app/version.js && grep -q "$BUILD" app/sw.js
       - uses: actions/upload-pages-artifact@v3
         with:
           path: app

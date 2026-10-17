@@ -5,8 +5,8 @@ import * as sync from '../sync.js';
 import { idb } from '../db.js';
 import { esc, fmtDateTime, download, todayISO, addDays, uid } from '../util.js';
 import { icon, toast, confirmDanger, dialog, safe } from '../ui.js';
-import { applyTheme, setupSync } from '../main.js';
-import { VERSION } from '../../version.js';
+import { applyTheme, setupSync, askUpdate } from '../main.js';
+import * as upd from '../update.js';
 import config from '../../config.js';
 
 const PAGES = [['allgemein', 'Allgemein'], ['daten', 'Daten & Backup'], ['sync', 'Synchronisation'], ['faecher', 'Fächer'], ['meldungen', 'Gemeldete Fehler'], ['ki', 'KI'], ['info', 'Installation & Hilfe']];
@@ -212,5 +212,19 @@ function info(pg) {
     <h3>Windows-PC (Edge oder Chrome)</h3><ol><li>Die Adresse der App öffnen.</li><li>In der Adressleiste auf das Symbol „App installieren“ klicken (oder Menü ⋯ → Apps → „Diese Website als App installieren“).</li><li>Die App erscheint im Startmenü und auf Wunsch auf dem Desktop und startet im eigenen Fenster.</li></ol>
     <h3>iPhone (Safari)</h3><ol><li>Die Adresse in <b>Safari</b> öffnen.</li><li>Auf „Teilen“ tippen (Quadrat mit Pfeil) → „Zum Home-Bildschirm“ → „Hinzufügen“.</li><li>Ab jetzt die App immer über das Symbol auf dem Home-Bildschirm starten. Nur so bleiben die Daten dauerhaft gespeichert und Erinnerungen sind möglich.</li></ol>
     <h3>Offline</h3><p>Nach dem ersten Öffnen mit Internet funktionieren alle Lerninhalte, Übungen, Noten und Lernzettel auch offline. Änderungen werden synchronisiert, sobald wieder eine Verbindung besteht und die App geöffnet ist. Die Texterkennung für Scans braucht beim ersten Mal Internet.</p>
-    <p class="small muted">Version ${VERSION}</p></div>`;
+    </div>
+  <div class="card" style="margin-top:16px"><h2>Version und Updates</h2>
+    <p>Installiert: <b>${esc(upd.versionLabel())}</b></p>
+    <p id="updInfo" class="small muted">${upd.updateState.lastCheck ? '' : 'Noch nicht geprüft.'}</p>
+    <div class="row"><button class="btn" id="chk">${icon('sync')} Nach Updates suchen</button><button class="btn primary" id="updNow" hidden>Jetzt aktualisieren</button></div>
+    <p class="small muted">Die App sucht beim Start und regelmäßig selbst nach neuen Versionen und zeigt dann oben den Knopf „Update“. Deine Daten bleiben beim Aktualisieren erhalten.</p></div>`;
+  const show = () => {
+    const a = upd.updateState.available, el = pg.querySelector('#updInfo');
+    if (!el) return;
+    el.innerHTML = upd.updateState.error ? `<span class="pill-bad">${esc(upd.updateState.error)}</span>` : a ? `Neue Version <b>${esc(a.version)}</b> ist verfügbar.` : upd.updateState.lastCheck ? (navigator.onLine ? 'Du hast die neueste Version.' : 'Offline: keine Prüfung möglich.') : 'Noch nicht geprüft.';
+    pg.querySelector('#updNow').hidden = !a;
+  };
+  show();
+  pg.querySelector('#chk').onclick = async () => { pg.querySelector('#updInfo').textContent = 'Prüfe …'; await upd.checkForUpdate(); show(); };
+  pg.querySelector('#updNow').onclick = askUpdate;
 }
