@@ -1,11 +1,26 @@
 // Automatisch erzeugt von tools/build-index.mjs. Liste aller Lerneinheiten.
 export default [
+  'lf01-ausbildungsordnung',
+  'lf01-lerntechniken',
+  'lf02-aufbauorganisation',
+  'lf02-vollmachten',
+  'lf02-arbeitsrecht',
+  'lf02-entgeltabrechnung',
   'lf03-inventur-bilanz',
   'lf03-buchen-bestandskonten',
+  'lf03-erfolgskonten',
   'lf03-umsatzsteuer',
+  'lf03-zahlungsverkehr',
   'lf04-verkehrstraeger-vergleich',
   'lf04-frachtvertrag-haftung',
+  'lf04-cmr',
+  'lf04-lenkzeiten',
+  'lf04-fahrzeugplanung',
+  'lf04-gefahrgut',
   'lf05-sammelgut-ablauf',
+  'lf05-speditionsvertrag',
+  'lf05-systemverkehr',
+  'lf05-mahnverfahren',
   'lf06-luftfracht-recht',
   'lf06-luftfracht-berechnung',
   'lf06-luftfracht-gefahrgut',
@@ -26,6 +41,8 @@ export default [
   'lf10-container',
   'lf10-multimodal',
   'wiso-ausbildungsvertrag',
+  'wiso-mitbestimmung-tarif',
   'wiso-kaufvertrag',
-  'wiso-sozialversicherung'
+  'wiso-sozialversicherung',
+  'wiso-einkommensteuer'
 ];

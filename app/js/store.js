@@ -105,7 +105,7 @@ export async function applyRecords(recs, ev = { type: 'sync-apply' }) {
 
 export const settingsDefaults = {
   id: 'settings',
-  name: 'Rafael', theme: 'auto', reduceMotion: false, dailyMinutes: 15, weeklyGoalMinutes: 105,
+  name: '', theme: 'auto', reduceMotion: false, dailyMinutes: 15, weeklyGoalMinutes: 105,
   gamification: true, streak: true, notifications: false,
   schoolYear: '2026/27', trainingYear: 2, trainingStart: '', trainingEnd: '',
   school: 'KBBZ Halberg Saarbrücken', schoolConfirmed: true,

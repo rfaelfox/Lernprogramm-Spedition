@@ -22,36 +22,36 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 
 ## Abdeckung
 
-75 Themen: Noch nicht ausgearbeitet: 46 · Vollständig ausgearbeitet: 27 · Quelle/Zuordnung prüfen: 2. 28 Lerneinheiten, 323 Aufgaben, 299 Karteikarten.
+75 Themen: Noch nicht ausgearbeitet: 29 · Vollständig ausgearbeitet: 43 · Quelle/Zuordnung prüfen: 3. 45 Lerneinheiten, 521 Aufgaben, 486 Karteikarten.
 
 | Bereich | Jahr | Thema | Status | Lerneinheiten |
 |---|---|---|---|---|
 | LF 1 Die Berufsausbildung mitgestalten | 1 | Berufsbildungsgesetz und Ausbildungsvertrag | Noch nicht ausgearbeitet | – |
 | LF 1 Die Berufsausbildung mitgestalten | 1 | Jugendarbeitsschutz | Noch nicht ausgearbeitet | – |
-| LF 1 Die Berufsausbildung mitgestalten | 1 | Ausbildungsordnung, Ausbildungsrahmenplan und Rahmenlehrplan | Noch nicht ausgearbeitet | – |
+| LF 1 Die Berufsausbildung mitgestalten | 1 | Ausbildungsordnung, Ausbildungsrahmenplan und Rahmenlehrplan | Vollständig ausgearbeitet | Ausbildungsordnung, Ausbildungsrahmenplan und Rahmenlehrplan |
 | LF 1 Die Berufsausbildung mitgestalten | 1 | Betriebliche Mitbestimmung und JAV | Noch nicht ausgearbeitet | – |
-| LF 1 Die Berufsausbildung mitgestalten | 1 | Lern-, Arbeits- und Präsentationstechniken | Noch nicht ausgearbeitet | – |
-| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Aufbauorganisation und Stellenbeschreibung | Noch nicht ausgearbeitet | – |
-| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Vollmachten: Handlungsvollmacht und Prokura | Noch nicht ausgearbeitet | – |
-| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Kündigungsschutz und Mutterschutz | Noch nicht ausgearbeitet | – |
-| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Entgeltabrechnung, Lohnsteuer und Sozialversicherung | Noch nicht ausgearbeitet | – |
+| LF 1 Die Berufsausbildung mitgestalten | 1 | Lern-, Arbeits- und Präsentationstechniken | Vollständig ausgearbeitet | Lern-, Arbeits- und Präsentationstechniken |
+| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Aufbauorganisation und Stellenbeschreibung | Vollständig ausgearbeitet | Aufbauorganisation und Stellenbeschreibung |
+| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Vollmachten: Handlungsvollmacht und Prokura | Vollständig ausgearbeitet | Vollmachten: Handlungsvollmacht und Prokura |
+| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Kündigungsschutz und Mutterschutz | Vollständig ausgearbeitet | Kündigung, Kündigungsschutz und Mutterschutz |
+| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Entgeltabrechnung, Lohnsteuer und Sozialversicherung | Vollständig ausgearbeitet | Entgeltabrechnung: vom Brutto zum Netto |
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Tarifverhandlungen und Tarifvertrag | Noch nicht ausgearbeitet | – |
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Vermögensbildung und Einkommensteuererklärung | Noch nicht ausgearbeitet | – |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Inventur, Inventar und Bilanz | Vollständig ausgearbeitet | Inventur, Inventar und Bilanz |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Bestandskonten und Buchungssatz | Vollständig ausgearbeitet | Bestandskonten und Buchungssatz |
-| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Erfolgskonten und Gewinn- und Verlustrechnung | Noch nicht ausgearbeitet | – |
+| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Erfolgskonten und Gewinn- und Verlustrechnung | Vollständig ausgearbeitet | Erfolgskonten und Gewinn- und Verlustrechnung |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Vorsteuer und Umsatzsteuer | Vollständig ausgearbeitet | Vorsteuer und Umsatzsteuer |
-| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Zahlungsverkehr und Zahlungsverzug | Noch nicht ausgearbeitet | – |
+| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Zahlungsverkehr und Zahlungsverzug | Vollständig ausgearbeitet | Zahlungsverkehr und Skonto |
 | LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Verkehrsträger im Vergleich | Vollständig ausgearbeitet | Verkehrsträger im Vergleich |
 | LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Frachtvertrag und Haftung nach HGB | Vollständig ausgearbeitet | Frachtvertrag und Haftung nach HGB |
-| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Grenzüberschreitender Straßengüterverkehr (CMR) | Noch nicht ausgearbeitet | – |
-| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Lenk- und Ruhezeiten | Noch nicht ausgearbeitet | – |
-| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Fahrzeug- und Ladeeinheitenplanung, Make or Buy | Noch nicht ausgearbeitet | – |
-| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Gefahrgut-Grundlagen (ADR) | Noch nicht ausgearbeitet | – |
+| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Grenzüberschreitender Straßengüterverkehr (CMR) | Vollständig ausgearbeitet | Grenzüberschreitender Straßengüterverkehr (CMR) |
+| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Lenk- und Ruhezeiten | Vollständig ausgearbeitet | Lenk- und Ruhezeiten |
+| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Fahrzeug- und Ladeeinheitenplanung, Make or Buy | Vollständig ausgearbeitet | Fahrzeug- und Ladeeinheitenplanung, Make or Buy |
+| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Gefahrgut-Grundlagen (ADR) | Quelle/Zuordnung prüfen | Gefahrgut auf der Straße: ADR-Grundlagen |
 | LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Ablauf des Sammelgutverkehrs und Rückrechnung | Vollständig ausgearbeitet | Ablauf des Sammelgutverkehrs und Rückrechnung |
-| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Speditionsvertrag, ADSp und Haftung | Noch nicht ausgearbeitet | – |
-| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Systemverkehre, KEP-Dienste und Sendungsverfolgung | Noch nicht ausgearbeitet | – |
-| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Kaufmännisches Mahnverfahren | Noch nicht ausgearbeitet | – |
+| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Speditionsvertrag, ADSp und Haftung | Vollständig ausgearbeitet | Speditionsvertrag, ADSp und Haftung des Spediteurs |
+| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Systemverkehre, KEP-Dienste und Sendungsverfolgung | Vollständig ausgearbeitet | Systemverkehre, KEP-Dienste und Sendungsverfolgung |
+| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Kaufmännisches Mahnverfahren | Vollständig ausgearbeitet | Kaufmännisches und gerichtliches Mahnverfahren |
 | LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Verkehrsträger der Schule (zu prüfen) | Quelle/Zuordnung prüfen | – |
 | LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Frachtrecht und Frachtpapiere | Vollständig ausgearbeitet | Luftfrachtrecht und Luftfrachtpapiere |
 | LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Umschlag, Ladeeinheiten und Frachtberechnung | Vollständig ausgearbeitet | Luftfracht: Ladeeinheiten und Frachtberechnung |
@@ -90,10 +90,10 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 | LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Währungsrisiken | Noch nicht ausgearbeitet | – |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W1 Sich in der Arbeitswelt zurechtfinden | Vollständig ausgearbeitet | Duales System und Berufsausbildungsvertrag |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W2 Wirtschaftliche Zusammenhänge kennen | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W3 Den Betrieb aktiv mitgestalten | Noch nicht ausgearbeitet | – |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W3 Den Betrieb aktiv mitgestalten | Vollständig ausgearbeitet | Betriebsrat, JAV und Tarifvertrag |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W4 Die Rolle als Verbraucher ausüben | Vollständig ausgearbeitet | Geschäftsfähigkeit und Kaufvertrag |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen und Absicherung: Sozialversicherung | Vollständig ausgearbeitet | Die fünf Zweige der Sozialversicherung |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen, Steuern und Haushaltsplanung | Noch nicht ausgearbeitet | – |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen, Steuern und Haushaltsplanung | Vollständig ausgearbeitet | Einkommensteuer, Vermögensbildung und Haushaltsplan |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W6 Entscheidungen in der sozialen Marktwirtschaft | Noch nicht ausgearbeitet | – |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S1 In unserer Gesellschaft leben und handeln | Noch nicht ausgearbeitet | – |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S2 Die Entwicklung der Demokratie verstehen | Noch nicht ausgearbeitet | – |

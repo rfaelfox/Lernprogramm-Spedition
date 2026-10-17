@@ -1,6 +1,6 @@
 # Projektstand
 
-Stand: 17.10.2026 · Version 0.4.0
+Stand: 17.10.2026 · Version 0.5.0
 
 ## Erledigt
 
@@ -15,11 +15,11 @@ Stand: 17.10.2026 · Version 0.4.0
 
 ## Offen
 
-- **Inhalte:** 27 von 75 Themen sind vollständig ausgearbeitet; das 2. Lehrjahr (LF 6–10) ist komplett. LF 6 ist vorläufig für Luftfracht geschrieben, bis der Verkehrsträger der Schule feststeht (Stand 17.10.2026). Den aktuellen Stand zeigt [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md) und in der App „Abdeckung“. Nicht ausgearbeitete Themen sind dort ehrlich als „noch offen“ markiert.
+- **Inhalte:** 43 von 75 Themen sind vollständig ausgearbeitet; 1. und 2. Lehrjahr (LF 1–10) sind komplett. LF 6 ist vorläufig für Luftfracht geschrieben, bis der Verkehrsträger der Schule feststeht (Stand 17.10.2026). Den aktuellen Stand zeigt [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md) und in der App „Abdeckung“. Nicht ausgearbeitete Themen sind dort ehrlich als „noch offen“ markiert.
 - **Zu klären:** Beginn und Ende der Ausbildung, ob am KBBZ Halberg ein eigener Lehrplan für die Lernfelder gilt und ob der WiSo-Lehrplan 2022 den von 2016 ersetzt. Notenschlüssel und Gewichtung der Schule (bis dahin IHK-Schlüssel als Annahme).
 
 ## Nächste Schritte
 
-1. Inhalte für das 1. Lehrjahr (LF 1–5, Stoff der Zwischenprüfung) ergänzen, danach 3. Lehrjahr und restliche WiSo-Themen.
+1. 3. Lehrjahr (LF 11–15) und restliche WiSo-Themen ausarbeiten.
 2. Echte Noten, Klassenarbeiten und Stundenplanfächer eintragen, damit Lernplan und Notenrechner passen.
 3. Rückmeldungen aus dem Unterricht über „Fehler melden“ sammeln und Inhalte korrigieren.

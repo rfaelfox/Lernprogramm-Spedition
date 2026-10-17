@@ -190,6 +190,9 @@ async function boot() {
   sync.onSync(updateStatus);
   window.addEventListener('online', updateStatus); window.addEventListener('offline', updateStatus);
   await setupSync();
+  // Früher war „Rafael“ fest voreingestellt. Für sein angemeldetes Konto bleibt der Name erhalten,
+  // alle anderen werden beim ersten Start nach ihrem Namen gefragt.
+  if (!store.get('settings', 'settings')?.name && sync.getAdapter()?.ready()) await store.saveSettings({ name: 'Rafael' });
   sync.startAutoSync();
   updateStatus();
   window.addEventListener('hashchange', render);

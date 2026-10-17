@@ -19,19 +19,19 @@ export const areas = [
     topics: [
       t('lf01-bbig', 'Berufsbildungsgesetz und Ausbildungsvertrag', [], { alsoIn: ['wiso-w1-ausbildung'] }),
       t('lf01-jarbschg', 'Jugendarbeitsschutz', [], { alsoIn: ['wiso-w1-ausbildung'] }),
-      t('lf01-ausbildungsordnung', 'Ausbildungsordnung, Ausbildungsrahmenplan und Rahmenlehrplan'),
+      t('lf01-ausbildungsordnung', 'Ausbildungsordnung, Ausbildungsrahmenplan und Rahmenlehrplan', ['lf01-ausbildungsordnung']),
       t('lf01-mitbestimmung', 'Betriebliche Mitbestimmung und JAV', [], { alsoIn: ['wiso-w3-mitbestimmung'] }),
-      t('lf01-lerntechniken', 'Lern-, Arbeits- und Präsentationstechniken')
+      t('lf01-lerntechniken', 'Lern-, Arbeits- und Präsentationstechniken', ['lf01-lerntechniken'])
     ]
   },
   {
     id: 'LF02', kind: 'lf', no: 2, year: 1, hours: 80, source: 'kmk-rlp-2004',
     title: 'Im Speditionsbetrieb mitarbeiten',
     topics: [
-      t('lf02-aufbauorganisation', 'Aufbauorganisation und Stellenbeschreibung'),
-      t('lf02-vollmachten', 'Vollmachten: Handlungsvollmacht und Prokura'),
-      t('lf02-arbeitsrecht', 'Kündigungsschutz und Mutterschutz', [], { alsoIn: ['wiso-w1-ausbildung'] }),
-      t('lf02-entgelt', 'Entgeltabrechnung, Lohnsteuer und Sozialversicherung', [], { alsoIn: ['wiso-w5-sozialversicherung'] }),
+      t('lf02-aufbauorganisation', 'Aufbauorganisation und Stellenbeschreibung', ['lf02-aufbauorganisation']),
+      t('lf02-vollmachten', 'Vollmachten: Handlungsvollmacht und Prokura', ['lf02-vollmachten']),
+      t('lf02-arbeitsrecht', 'Kündigungsschutz und Mutterschutz', ['lf02-arbeitsrecht'], { alsoIn: ['wiso-w1-ausbildung'] }),
+      t('lf02-entgelt', 'Entgeltabrechnung, Lohnsteuer und Sozialversicherung', ['lf02-entgeltabrechnung'], { alsoIn: ['wiso-w5-sozialversicherung'] }),
       t('lf02-tarif', 'Tarifverhandlungen und Tarifvertrag', [], { alsoIn: ['wiso-w3-mitbestimmung'] }),
       t('lf02-vermoegensbildung', 'Vermögensbildung und Einkommensteuererklärung', [], { alsoIn: ['wiso-w5-einkommen'] })
     ]
@@ -42,9 +42,9 @@ export const areas = [
     topics: [
       t('lf03-inventur', 'Inventur, Inventar und Bilanz', ['lf03-inventur-bilanz']),
       t('lf03-bestandskonten', 'Bestandskonten und Buchungssatz', ['lf03-buchen-bestandskonten']),
-      t('lf03-erfolgskonten', 'Erfolgskonten und Gewinn- und Verlustrechnung'),
+      t('lf03-erfolgskonten', 'Erfolgskonten und Gewinn- und Verlustrechnung', ['lf03-erfolgskonten']),
       t('lf03-ust', 'Vorsteuer und Umsatzsteuer', ['lf03-umsatzsteuer']),
-      t('lf03-zahlungsverkehr', 'Zahlungsverkehr und Zahlungsverzug')
+      t('lf03-zahlungsverkehr', 'Zahlungsverkehr und Zahlungsverzug', ['lf03-zahlungsverkehr'])
     ]
   },
   {
@@ -53,10 +53,10 @@ export const areas = [
     topics: [
       t('lf04-verkehrstraeger', 'Verkehrsträger im Vergleich', ['lf04-verkehrstraeger-vergleich']),
       t('lf04-frachtrecht', 'Frachtvertrag und Haftung nach HGB', ['lf04-frachtvertrag-haftung']),
-      t('lf04-cmr', 'Grenzüberschreitender Straßengüterverkehr (CMR)'),
-      t('lf04-lenkzeiten', 'Lenk- und Ruhezeiten'),
-      t('lf04-fahrzeugplanung', 'Fahrzeug- und Ladeeinheitenplanung, Make or Buy'),
-      t('lf04-gefahrgut', 'Gefahrgut-Grundlagen (ADR)')
+      t('lf04-cmr', 'Grenzüberschreitender Straßengüterverkehr (CMR)', ['lf04-cmr']),
+      t('lf04-lenkzeiten', 'Lenk- und Ruhezeiten', ['lf04-lenkzeiten']),
+      t('lf04-fahrzeugplanung', 'Fahrzeug- und Ladeeinheitenplanung, Make or Buy', ['lf04-fahrzeugplanung']),
+      t('lf04-gefahrgut', 'Gefahrgut-Grundlagen (ADR)', ['lf04-gefahrgut'])
     ]
   },
   {
@@ -64,9 +64,9 @@ export const areas = [
     title: 'Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten',
     topics: [
       t('lf05-sammelgut', 'Ablauf des Sammelgutverkehrs und Rückrechnung', ['lf05-sammelgut-ablauf']),
-      t('lf05-speditionsvertrag', 'Speditionsvertrag, ADSp und Haftung'),
-      t('lf05-systemverkehr', 'Systemverkehre, KEP-Dienste und Sendungsverfolgung'),
-      t('lf05-mahnverfahren', 'Kaufmännisches Mahnverfahren')
+      t('lf05-speditionsvertrag', 'Speditionsvertrag, ADSp und Haftung', ['lf05-speditionsvertrag']),
+      t('lf05-systemverkehr', 'Systemverkehre, KEP-Dienste und Sendungsverfolgung', ['lf05-systemverkehr']),
+      t('lf05-mahnverfahren', 'Kaufmännisches Mahnverfahren', ['lf05-mahnverfahren'])
     ]
   },
   {
@@ -173,10 +173,10 @@ export const areas = [
     topics: [
       t('wiso-w1-ausbildung', 'W1 Sich in der Arbeitswelt zurechtfinden', ['wiso-ausbildungsvertrag'], { alsoIn: ['lf01-bbig'] }),
       t('wiso-w2-wirtschaft', 'W2 Wirtschaftliche Zusammenhänge kennen'),
-      t('wiso-w3-mitbestimmung', 'W3 Den Betrieb aktiv mitgestalten'),
+      t('wiso-w3-mitbestimmung', 'W3 Den Betrieb aktiv mitgestalten', ['wiso-mitbestimmung-tarif']),
       t('wiso-w4-vertraege', 'W4 Die Rolle als Verbraucher ausüben', ['wiso-kaufvertrag'], { alsoIn: ['lf08-kaufvertrag'] }),
       t('wiso-w5-sozialversicherung', 'W5 Einkommen und Absicherung: Sozialversicherung', ['wiso-sozialversicherung'], { alsoIn: ['lf02-entgelt'] }),
-      t('wiso-w5-einkommen', 'W5 Einkommen, Steuern und Haushaltsplanung'),
+      t('wiso-w5-einkommen', 'W5 Einkommen, Steuern und Haushaltsplanung', ['wiso-einkommensteuer']),
       t('wiso-w6-marktwirtschaft', 'W6 Entscheidungen in der sozialen Marktwirtschaft'),
       t('wiso-s1-gesellschaft', 'S1 In unserer Gesellschaft leben und handeln'),
       t('wiso-s2-demokratie', 'S2 Die Entwicklung der Demokratie verstehen'),

@@ -23,11 +23,12 @@ export async function render(el, { app }) {
   const greet = hour < 11 ? 'Guten Morgen' : hour < 18 ? 'Hallo' : 'Guten Abend';
 
   el.innerHTML = `
+  ${!s.name ? `<form class="note row between" id="nameForm"><label for="nm">Wie heißt du? Dann begrüßt dich die App mit Namen.</label><span class="row"><input id="nm" type="text" autocomplete="given-name" style="max-width:180px"><button class="btn small primary">Speichern</button></span></form>` : ''}
   ${hasDemo ? `<div class="note warn row between"><span><span class="badge demo">Beispieldaten</span> Es sind Beispieldaten vorhanden.</span><a class="btn small" href="#/einstellungen/daten">Entfernen</a></div>` : ''}
   <section class="card hero">
     ${motif}
     <h1>${greet}${s.name ? ", " + esc(s.name) : ""}!</h1>
-    <p class="muted">${esc(s.trainingYear)}. Ausbildungsjahr · ${esc(s.school)} · Schuljahr ${esc(s.schoolYear)}</p>
+    <p class="muted">${esc(s.trainingYear)}. Ausbildungsjahr${s.school ? ' · ' + esc(s.school) : ''} · Schuljahr ${esc(s.schoolYear)}</p>
     <p style="margin:14px 0 8px"><b>Jetzt lernen:</b></p>
     <div class="row">${[5, 10, 15, 30].map((m) => `<a class="btn ${m === s.dailyMinutes ? 'primary' : ''}" href="#/karten/session?min=${m}" style="${m === s.dailyMinutes ? '' : 'background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.25)'}">${icon('clock')} ${m} Min.</a>`).join('')}</div>
     <p class="small muted" style="margin-top:10px">Eine Kurzeinheit mischt fällige Karteikarten und passende Aufgaben aus deinem Lernplan.</p>
@@ -75,4 +76,11 @@ export async function render(el, { app }) {
     ${[...yearAreas, C.areaById.get('WISO')].filter(Boolean).map((a) => { const p = L.areaProgress(a.id); return `<a class="card link" href="#/lernen/bereich/${a.id}"><div class="small muted">${esc(C.areaLabel(a))}</div><b>${esc(a.title)}</b><div style="margin-top:10px">${progressBar(p.value)}</div><div class="small muted" style="margin-top:4px">${p.units ? `${Math.round(p.value * 100)} % beherrscht · ${p.units} Lerneinheit${p.units === 1 ? '' : 'en'}` : 'Noch keine Lerneinheiten ausgearbeitet'}</div></a>`; }).join('')}
   </div>
   <p class="small muted" style="margin-top:14px">„Beherrscht“ zählt nur Aufgaben- und Karteikartenergebnisse über mehrere Tage, nicht das bloße Öffnen von Seiten.</p>`;
+  el.querySelector('#nameForm')?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const name = el.querySelector('#nm').value.trim();
+    if (!name) return;
+    await store.saveSettings({ name });
+    render(el, { app });
+  });
 }
