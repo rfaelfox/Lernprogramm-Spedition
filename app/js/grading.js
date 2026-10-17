@@ -27,7 +27,10 @@ const close = (given, expected, tol) => {
   const g = parseNumber(given);
   if (isNaN(g)) return false;
   const t = tol ?? Math.max(0.005, Math.abs(expected) * 0.0005);
-  return Math.abs(g - expected) <= t + 1e-9;
+  if (Math.abs(g - expected) <= t + 1e-9) return true;
+  // "1.234" ist mehrdeutig (Tausenderpunkt oder Dezimalpunkt): beide Lesarten gelten lassen.
+  const alt = String(given).trim().match(/^-?\d{1,3}\.\d{3}$/) ? parseFloat(String(given).trim()) : NaN;
+  return !isNaN(alt) && Math.abs(alt - expected) <= t + 1e-9;
 };
 
 function textMatches(given, alts) {

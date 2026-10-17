@@ -22,7 +22,7 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 
 ## Abdeckung
 
-75 Themen: Noch nicht ausgearbeitet: 62 · Vollständig ausgearbeitet: 12 · Quelle/Zuordnung prüfen: 1. 12 Lerneinheiten, 141 Aufgaben, 128 Karteikarten.
+75 Themen: Noch nicht ausgearbeitet: 46 · Vollständig ausgearbeitet: 27 · Quelle/Zuordnung prüfen: 2. 28 Lerneinheiten, 323 Aufgaben, 299 Karteikarten.
 
 | Bereich | Jahr | Thema | Status | Lerneinheiten |
 |---|---|---|---|---|
@@ -53,25 +53,25 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 | LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Systemverkehre, KEP-Dienste und Sendungsverfolgung | Noch nicht ausgearbeitet | – |
 | LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Kaufmännisches Mahnverfahren | Noch nicht ausgearbeitet | – |
 | LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Verkehrsträger der Schule (zu prüfen) | Quelle/Zuordnung prüfen | – |
-| LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Frachtrecht und Frachtpapiere | Noch nicht ausgearbeitet | – |
-| LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Umschlag, Ladeeinheiten und Frachtberechnung | Noch nicht ausgearbeitet | – |
-| LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Gefahrgut beim gewählten Verkehrsträger | Noch nicht ausgearbeitet | – |
-| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Kostenarten-, Kostenstellen- und Kostenträgerrechnung | Noch nicht ausgearbeitet | – |
-| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Fahrzeugkostenrechnung | Noch nicht ausgearbeitet | – |
+| LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Frachtrecht und Frachtpapiere | Vollständig ausgearbeitet | Luftfrachtrecht und Luftfrachtpapiere |
+| LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Umschlag, Ladeeinheiten und Frachtberechnung | Vollständig ausgearbeitet | Luftfracht: Ladeeinheiten und Frachtberechnung |
+| LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Gefahrgut beim gewählten Verkehrsträger | Vollständig ausgearbeitet | Gefahrgut in der Luftfracht |
+| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Kostenarten-, Kostenstellen- und Kostenträgerrechnung | Vollständig ausgearbeitet | Kostenarten-, Kostenstellen- und Kostenträgerrechnung |
+| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Fahrzeugkostenrechnung | Quelle/Zuordnung prüfen | Fahrzeugkostenrechnung für Lkw |
 | LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Deckungsbeitragsrechnung und Break-even | Vollständig ausgearbeitet | Deckungsbeitragsrechnung und Break-even |
-| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit | Noch nicht ausgearbeitet | – |
-| LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Kaufvertrag und Angebotsvergleich | Noch nicht ausgearbeitet | – |
-| LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Mangelhafte Lieferung und Lieferungsverzug | Noch nicht ausgearbeitet | – |
-| LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Finanzierung: Ratenkauf, Leasing, Bankkredit | Noch nicht ausgearbeitet | – |
+| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit | Vollständig ausgearbeitet | Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit |
+| LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Kaufvertrag und Angebotsvergleich | Vollständig ausgearbeitet | Beschaffung und Angebotsvergleich |
+| LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Mangelhafte Lieferung und Lieferungsverzug | Vollständig ausgearbeitet | Mangelhafte Lieferung und Lieferungsverzug |
+| LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Finanzierung: Ratenkauf, Leasing, Bankkredit | Vollständig ausgearbeitet | Finanzierung: Bankkredit, Ratenkauf, Leasing |
 | LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerfunktionen, Lagerarten und Lagervertrag | Vollständig ausgearbeitet | Lagerfunktionen, Lagerarten und Lagervertrag |
-| LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerorganisation und Lagerpapiere | Noch nicht ausgearbeitet | – |
-| LF 9 Lagerleistungen anbieten und organisieren | 2 | Förder- und Lagertechnik im Überblick | Noch nicht ausgearbeitet | – |
-| LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerkosten, Angebot und Abrechnung | Noch nicht ausgearbeitet | – |
+| LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerorganisation und Lagerpapiere | Vollständig ausgearbeitet | Lagerorganisation, Lagerpapiere und Lagerkennzahlen |
+| LF 9 Lagerleistungen anbieten und organisieren | 2 | Förder- und Lagertechnik im Überblick | Vollständig ausgearbeitet | Förder- und Lagertechnik im Überblick |
+| LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerkosten, Angebot und Abrechnung | Vollständig ausgearbeitet | Lagerkosten, Angebot und Abrechnung |
 | LF 10 Exportaufträge bearbeiten | 2 | Incoterms® 2020 | Vollständig ausgearbeitet | Incoterms® 2020 |
-| LF 10 Exportaufträge bearbeiten | 2 | Dokumenteninkasso und Akkreditiv | Noch nicht ausgearbeitet | – |
-| LF 10 Exportaufträge bearbeiten | 2 | Ausfuhrverfahren und Exportpapiere | Noch nicht ausgearbeitet | – |
-| LF 10 Exportaufträge bearbeiten | 2 | Container- und Frachtplanung im Seeverkehr | Noch nicht ausgearbeitet | – |
-| LF 10 Exportaufträge bearbeiten | 2 | Multimodaler Transport | Noch nicht ausgearbeitet | – |
+| LF 10 Exportaufträge bearbeiten | 2 | Dokumenteninkasso und Akkreditiv | Vollständig ausgearbeitet | Zahlungssicherung im Außenhandel: Inkasso und Akkreditiv |
+| LF 10 Exportaufträge bearbeiten | 2 | Ausfuhrverfahren und Exportpapiere | Vollständig ausgearbeitet | Ausfuhrverfahren und Exportpapiere |
+| LF 10 Exportaufträge bearbeiten | 2 | Container- und Frachtplanung im Seeverkehr | Vollständig ausgearbeitet | Containerverkehr und Seefrachtberechnung |
+| LF 10 Exportaufträge bearbeiten | 2 | Multimodaler Transport | Vollständig ausgearbeitet | Multimodaler und kombinierter Verkehr |
 | LF 11 Importaufträge bearbeiten | 3 | Versandverfahren (Transit) | Noch nicht ausgearbeitet | – |
 | LF 11 Importaufträge bearbeiten | 3 | Überlassung zum zollrechtlich freien Verkehr und Veredelung | Noch nicht ausgearbeitet | – |
 | LF 11 Importaufträge bearbeiten | 3 | Einfuhrabgaben und Zollaufschub | Noch nicht ausgearbeitet | – |

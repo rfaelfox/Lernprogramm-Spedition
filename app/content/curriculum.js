@@ -75,28 +75,28 @@ export const areas = [
     note: 'Welcher Verkehrsträger (Schiene, Binnenschiff, Luft oder See) unterrichtet wird, legt die Schule fest. Bitte mit deinem Stundenplan abgleichen.',
     topics: [
       t('lf06-verkehrstraeger-wahl', 'Verkehrsträger der Schule (zu prüfen)'),
-      t('lf06-frachtrecht', 'Frachtrecht und Frachtpapiere'),
-      t('lf06-umschlag', 'Umschlag, Ladeeinheiten und Frachtberechnung'),
-      t('lf06-gefahrgut', 'Gefahrgut beim gewählten Verkehrsträger')
+      t('lf06-frachtrecht', 'Frachtrecht und Frachtpapiere', ['lf06-luftfracht-recht']),
+      t('lf06-umschlag', 'Umschlag, Ladeeinheiten und Frachtberechnung', ['lf06-luftfracht-berechnung']),
+      t('lf06-gefahrgut', 'Gefahrgut beim gewählten Verkehrsträger', ['lf06-luftfracht-gefahrgut'])
     ]
   },
   {
     id: 'LF07', kind: 'lf', no: 7, year: 2, hours: 80, source: 'kmk-rlp-2004',
     title: 'Geschäftsprozesse erfolgsorientiert steuern',
     topics: [
-      t('lf07-kostenarten', 'Kostenarten-, Kostenstellen- und Kostenträgerrechnung'),
-      t('lf07-fahrzeugkosten', 'Fahrzeugkostenrechnung'),
+      t('lf07-kostenarten', 'Kostenarten-, Kostenstellen- und Kostenträgerrechnung', ['lf07-kostenarten']),
+      t('lf07-fahrzeugkosten', 'Fahrzeugkostenrechnung', ['lf07-fahrzeugkosten']),
       t('lf07-deckungsbeitrag', 'Deckungsbeitragsrechnung und Break-even', ['lf07-deckungsbeitrag']),
-      t('lf07-kennzahlen', 'Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit')
+      t('lf07-kennzahlen', 'Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit', ['lf07-kennzahlen'])
     ]
   },
   {
     id: 'LF08', kind: 'lf', no: 8, year: 2, hours: 40, source: 'kmk-rlp-2004',
     title: 'Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren',
     topics: [
-      t('lf08-kaufvertrag', 'Kaufvertrag und Angebotsvergleich', [], { alsoIn: ['wiso-w4-vertraege'] }),
-      t('lf08-stoerungen', 'Mangelhafte Lieferung und Lieferungsverzug'),
-      t('lf08-finanzierung', 'Finanzierung: Ratenkauf, Leasing, Bankkredit')
+      t('lf08-kaufvertrag', 'Kaufvertrag und Angebotsvergleich', ['lf08-angebotsvergleich'], { alsoIn: ['wiso-w4-vertraege'] }),
+      t('lf08-stoerungen', 'Mangelhafte Lieferung und Lieferungsverzug', ['lf08-stoerungen']),
+      t('lf08-finanzierung', 'Finanzierung: Ratenkauf, Leasing, Bankkredit', ['lf08-finanzierung'])
     ]
   },
   {
@@ -104,9 +104,9 @@ export const areas = [
     title: 'Lagerleistungen anbieten und organisieren',
     topics: [
       t('lf09-lagerarten', 'Lagerfunktionen, Lagerarten und Lagervertrag', ['lf09-lager-grundlagen']),
-      t('lf09-lagerorganisation', 'Lagerorganisation und Lagerpapiere'),
-      t('lf09-foerdermittel', 'Förder- und Lagertechnik im Überblick'),
-      t('lf09-lagerkosten', 'Lagerkosten, Angebot und Abrechnung')
+      t('lf09-lagerorganisation', 'Lagerorganisation und Lagerpapiere', ['lf09-lagerorganisation']),
+      t('lf09-foerdermittel', 'Förder- und Lagertechnik im Überblick', ['lf09-foerdermittel']),
+      t('lf09-lagerkosten', 'Lagerkosten, Angebot und Abrechnung', ['lf09-lagerkosten'])
     ]
   },
   {
@@ -114,10 +114,10 @@ export const areas = [
     title: 'Exportaufträge bearbeiten',
     topics: [
       t('lf10-incoterms', 'Incoterms® 2020', ['lf10-incoterms']),
-      t('lf10-zahlungssicherung', 'Dokumenteninkasso und Akkreditiv'),
-      t('lf10-ausfuhrverfahren', 'Ausfuhrverfahren und Exportpapiere'),
-      t('lf10-container', 'Container- und Frachtplanung im Seeverkehr'),
-      t('lf10-multimodal', 'Multimodaler Transport')
+      t('lf10-zahlungssicherung', 'Dokumenteninkasso und Akkreditiv', ['lf10-zahlungssicherung']),
+      t('lf10-ausfuhrverfahren', 'Ausfuhrverfahren und Exportpapiere', ['lf10-ausfuhrverfahren']),
+      t('lf10-container', 'Container- und Frachtplanung im Seeverkehr', ['lf10-container']),
+      t('lf10-multimodal', 'Multimodaler Transport', ['lf10-multimodal'])
     ]
   },
   {

@@ -7,7 +7,7 @@ import { subjectAverage, neededGrade, parseGrade, pointsToGrade, IHK_KEY, ihkGra
 import { merge3 } from '../app/js/sync.js';
 
 test('Zahlenformate werden gleichwertig erkannt', () => {
-  for (const [s, v] of [['1.234,56 €', 1234.56], ['1234.56', 1234.56], ['1 234,5 EUR', 1234.5], ['12,5 %', 12.5], ['-3,2', -3.2], ['1.234', 1234], ['0,5', 0.5], ['2.000.000', 2000000], ['1,234.5', 1234.5], ['19%', 19]]) assert.equal(parseNumber(s), v, s);
+  for (const [s, v] of [['1.234,56 €', 1234.56], ['1234.56', 1234.56], ['1 234,5 EUR', 1234.5], ['12,5 %', 12.5], ['-3,2', -3.2], ['1.234', 1234], ['0,5', 0.5], ['2.000.000', 2000000], ['1,234.5', 1234.5], ['19%', 19], ['0.525', 0.525]]) assert.equal(parseNumber(s), v, s);
   assert.ok(isNaN(parseNumber('abc')));
 });
 

@@ -45,7 +45,8 @@ export function parseNumber(input) {
   } else if (hasDot) {
     // "1.234" mit genau drei Nachkommastellen und ohne weitere Punkte → Tausenderpunkt (deutsch)
     const parts = s.split('.');
-    if (parts.length > 2 || (parts.length === 2 && parts[1].length === 3 && /^-?\d{1,3}$/.test(parts[0]))) s = s.replace(/\./g, '');
+    // (nicht bei "0.525": vor einem Tausenderpunkt steht nie eine einzelne 0)
+    if (parts.length > 2 || (parts.length === 2 && parts[1].length === 3 && /^-?\d{1,3}$/.test(parts[0]) && !/^-?0$/.test(parts[0]))) s = s.replace(/\./g, '');
   }
   if (!/^-?\d*\.?\d+$/.test(s)) return NaN;
   return parseFloat(s);
