@@ -22,21 +22,21 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 
 ## Abdeckung
 
-75 Themen: Noch nicht ausgearbeitet: 29 · Vollständig ausgearbeitet: 43 · Quelle/Zuordnung prüfen: 3. 45 Lerneinheiten, 521 Aufgaben, 486 Karteikarten.
+75 Themen: Vollständig ausgearbeitet: 69 · Quelle/Zuordnung prüfen: 6. 68 Lerneinheiten, 774 Aufgaben, 736 Karteikarten.
 
 | Bereich | Jahr | Thema | Status | Lerneinheiten |
 |---|---|---|---|---|
-| LF 1 Die Berufsausbildung mitgestalten | 1 | Berufsbildungsgesetz und Ausbildungsvertrag | Noch nicht ausgearbeitet | – |
-| LF 1 Die Berufsausbildung mitgestalten | 1 | Jugendarbeitsschutz | Noch nicht ausgearbeitet | – |
+| LF 1 Die Berufsausbildung mitgestalten | 1 | Berufsbildungsgesetz und Ausbildungsvertrag | Vollständig ausgearbeitet | über verknüpftes Thema: Duales System und Berufsausbildungsvertrag |
+| LF 1 Die Berufsausbildung mitgestalten | 1 | Jugendarbeitsschutz | Vollständig ausgearbeitet | über verknüpftes Thema: Duales System und Berufsausbildungsvertrag |
 | LF 1 Die Berufsausbildung mitgestalten | 1 | Ausbildungsordnung, Ausbildungsrahmenplan und Rahmenlehrplan | Vollständig ausgearbeitet | Ausbildungsordnung, Ausbildungsrahmenplan und Rahmenlehrplan |
-| LF 1 Die Berufsausbildung mitgestalten | 1 | Betriebliche Mitbestimmung und JAV | Noch nicht ausgearbeitet | – |
+| LF 1 Die Berufsausbildung mitgestalten | 1 | Betriebliche Mitbestimmung und JAV | Vollständig ausgearbeitet | über verknüpftes Thema: Betriebsrat, JAV und Tarifvertrag |
 | LF 1 Die Berufsausbildung mitgestalten | 1 | Lern-, Arbeits- und Präsentationstechniken | Vollständig ausgearbeitet | Lern-, Arbeits- und Präsentationstechniken |
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Aufbauorganisation und Stellenbeschreibung | Vollständig ausgearbeitet | Aufbauorganisation und Stellenbeschreibung |
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Vollmachten: Handlungsvollmacht und Prokura | Vollständig ausgearbeitet | Vollmachten: Handlungsvollmacht und Prokura |
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Kündigungsschutz und Mutterschutz | Vollständig ausgearbeitet | Kündigung, Kündigungsschutz und Mutterschutz |
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Entgeltabrechnung, Lohnsteuer und Sozialversicherung | Vollständig ausgearbeitet | Entgeltabrechnung: vom Brutto zum Netto |
-| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Tarifverhandlungen und Tarifvertrag | Noch nicht ausgearbeitet | – |
-| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Vermögensbildung und Einkommensteuererklärung | Noch nicht ausgearbeitet | – |
+| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Tarifverhandlungen und Tarifvertrag | Vollständig ausgearbeitet | über verknüpftes Thema: Betriebsrat, JAV und Tarifvertrag |
+| LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Vermögensbildung und Einkommensteuererklärung | Vollständig ausgearbeitet | über verknüpftes Thema: Einkommensteuer, Vermögensbildung und Haushaltsplan |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Inventur, Inventar und Bilanz | Vollständig ausgearbeitet | Inventur, Inventar und Bilanz |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Bestandskonten und Buchungssatz | Vollständig ausgearbeitet | Bestandskonten und Buchungssatz |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Erfolgskonten und Gewinn- und Verlustrechnung | Vollständig ausgearbeitet | Erfolgskonten und Gewinn- und Verlustrechnung |
@@ -72,32 +72,32 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 | LF 10 Exportaufträge bearbeiten | 2 | Ausfuhrverfahren und Exportpapiere | Vollständig ausgearbeitet | Ausfuhrverfahren und Exportpapiere |
 | LF 10 Exportaufträge bearbeiten | 2 | Container- und Frachtplanung im Seeverkehr | Vollständig ausgearbeitet | Containerverkehr und Seefrachtberechnung |
 | LF 10 Exportaufträge bearbeiten | 2 | Multimodaler Transport | Vollständig ausgearbeitet | Multimodaler und kombinierter Verkehr |
-| LF 11 Importaufträge bearbeiten | 3 | Versandverfahren (Transit) | Noch nicht ausgearbeitet | – |
-| LF 11 Importaufträge bearbeiten | 3 | Überlassung zum zollrechtlich freien Verkehr und Veredelung | Noch nicht ausgearbeitet | – |
-| LF 11 Importaufträge bearbeiten | 3 | Einfuhrabgaben und Zollaufschub | Noch nicht ausgearbeitet | – |
-| LF 12 Beschaffungslogistik anbieten und organisieren | 3 | Logistische Subsysteme und Sourcing-Konzepte | Noch nicht ausgearbeitet | – |
-| LF 12 Beschaffungslogistik anbieten und organisieren | 3 | Bedarfsermittlung und optimale Bestellmenge | Noch nicht ausgearbeitet | – |
-| LF 12 Beschaffungslogistik anbieten und organisieren | 3 | Just-in-time, Vorratshaltung und ABC-Analyse | Noch nicht ausgearbeitet | – |
-| LF 13 Distributionslogistik anbieten und organisieren | 3 | Kommissionierung und Versandvorbereitung | Noch nicht ausgearbeitet | – |
-| LF 13 Distributionslogistik anbieten und organisieren | 3 | Lagerkennzahlen | Noch nicht ausgearbeitet | – |
-| LF 13 Distributionslogistik anbieten und organisieren | 3 | Tourenplanung | Noch nicht ausgearbeitet | – |
-| LF 13 Distributionslogistik anbieten und organisieren | 3 | Entsorgungs- und Recyclinglogistik | Noch nicht ausgearbeitet | – |
-| LF 14 Marketingmaßnahmen entwickeln und durchführen | 3 | Marktforschung und Kundenanalyse | Noch nicht ausgearbeitet | – |
-| LF 14 Marketingmaßnahmen entwickeln und durchführen | 3 | Produkt-, Kommunikations- und Vertriebspolitik | Noch nicht ausgearbeitet | – |
-| LF 14 Marketingmaßnahmen entwickeln und durchführen | 3 | Qualitätsmanagement | Noch nicht ausgearbeitet | – |
-| LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Verkehrsinfrastruktur und Umweltpolitik | Noch nicht ausgearbeitet | – |
-| LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Ordnungs-, Geld-, Fiskal- und Arbeitsmarktpolitik | Noch nicht ausgearbeitet | – |
-| LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Währungsrisiken | Noch nicht ausgearbeitet | – |
+| LF 11 Importaufträge bearbeiten | 3 | Versandverfahren (Transit) | Vollständig ausgearbeitet | Versandverfahren: Unionsversand, NCTS und Carnets |
+| LF 11 Importaufträge bearbeiten | 3 | Überlassung zum zollrechtlich freien Verkehr und Veredelung | Vollständig ausgearbeitet | Zollverfahren bei der Einfuhr und Zollwert |
+| LF 11 Importaufträge bearbeiten | 3 | Einfuhrabgaben und Zollaufschub | Vollständig ausgearbeitet | Einfuhrabgaben berechnen: Zoll, Einfuhrumsatzsteuer, Zahlungsaufschub |
+| LF 12 Beschaffungslogistik anbieten und organisieren | 3 | Logistische Subsysteme und Sourcing-Konzepte | Vollständig ausgearbeitet | Logistische Subsysteme, Logistikdienstleister und Sourcing |
+| LF 12 Beschaffungslogistik anbieten und organisieren | 3 | Bedarfsermittlung und optimale Bestellmenge | Vollständig ausgearbeitet | Bedarfsermittlung, Bestellverfahren und optimale Bestellmenge |
+| LF 12 Beschaffungslogistik anbieten und organisieren | 3 | Just-in-time, Vorratshaltung und ABC-Analyse | Vollständig ausgearbeitet | Just-in-time, Vorratshaltung, Kanban und ABC-Analyse |
+| LF 13 Distributionslogistik anbieten und organisieren | 3 | Kommissionierung und Versandvorbereitung | Vollständig ausgearbeitet | Versandvorbereitung in der Distribution |
+| LF 13 Distributionslogistik anbieten und organisieren | 3 | Lagerkennzahlen | Vollständig ausgearbeitet | Distributions- und Logistikkennzahlen |
+| LF 13 Distributionslogistik anbieten und organisieren | 3 | Tourenplanung | Vollständig ausgearbeitet | Tourenplanung in der Distribution |
+| LF 13 Distributionslogistik anbieten und organisieren | 3 | Entsorgungs- und Recyclinglogistik | Quelle/Zuordnung prüfen | Entsorgungs-, Recycling- und Retourenlogistik |
+| LF 14 Marketingmaßnahmen entwickeln und durchführen | 3 | Marktforschung und Kundenanalyse | Vollständig ausgearbeitet | Marktforschung, Kundenanalyse und SWOT |
+| LF 14 Marketingmaßnahmen entwickeln und durchführen | 3 | Produkt-, Kommunikations- und Vertriebspolitik | Vollständig ausgearbeitet | Marketing-Mix einer Spedition |
+| LF 14 Marketingmaßnahmen entwickeln und durchführen | 3 | Qualitätsmanagement | Vollständig ausgearbeitet | Qualitätsmanagement in der Spedition |
+| LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Verkehrsinfrastruktur und Umweltpolitik | Quelle/Zuordnung prüfen | Verkehrsinfrastruktur und Umweltpolitik |
+| LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Ordnungs-, Geld-, Fiskal- und Arbeitsmarktpolitik | Vollständig ausgearbeitet | über verknüpftes Thema: Soziale Marktwirtschaft und Wirtschaftspolitik |
+| LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Währungsrisiken | Vollständig ausgearbeitet | Währungsrisiken: Wechselkurse und Kurssicherung |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W1 Sich in der Arbeitswelt zurechtfinden | Vollständig ausgearbeitet | Duales System und Berufsausbildungsvertrag |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W2 Wirtschaftliche Zusammenhänge kennen | Noch nicht ausgearbeitet | – |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W2 Wirtschaftliche Zusammenhänge kennen | Vollständig ausgearbeitet | Wirtschaftliche Grundlagen: Markt, Preis und Rechtsformen |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W3 Den Betrieb aktiv mitgestalten | Vollständig ausgearbeitet | Betriebsrat, JAV und Tarifvertrag |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W4 Die Rolle als Verbraucher ausüben | Vollständig ausgearbeitet | Geschäftsfähigkeit und Kaufvertrag |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen und Absicherung: Sozialversicherung | Vollständig ausgearbeitet | Die fünf Zweige der Sozialversicherung |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen, Steuern und Haushaltsplanung | Vollständig ausgearbeitet | Einkommensteuer, Vermögensbildung und Haushaltsplan |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W6 Entscheidungen in der sozialen Marktwirtschaft | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S1 In unserer Gesellschaft leben und handeln | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S2 Die Entwicklung der Demokratie verstehen | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S3 An demokratischen Entscheidungsprozessen teilhaben | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S4 Das politische System Deutschlands | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S5 In Europa leben und arbeiten | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S6 Die Welt im Wandel mitgestalten | Noch nicht ausgearbeitet | – |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W6 Entscheidungen in der sozialen Marktwirtschaft | Vollständig ausgearbeitet | Soziale Marktwirtschaft und Wirtschaftspolitik |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S1 In unserer Gesellschaft leben und handeln | Vollständig ausgearbeitet | Leben in der Gesellschaft |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S2 Die Entwicklung der Demokratie verstehen | Vollständig ausgearbeitet | Entwicklung der Demokratie in Deutschland |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S3 An demokratischen Entscheidungsprozessen teilhaben | Vollständig ausgearbeitet | Wahlen, Parteien und Bürgerbeteiligung |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S4 Das politische System Deutschlands | Vollständig ausgearbeitet | Das politische System Deutschlands |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S5 In Europa leben und arbeiten | Vollständig ausgearbeitet | In Europa leben und arbeiten: EU, Binnenmarkt und Euro |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S6 Die Welt im Wandel mitgestalten | Quelle/Zuordnung prüfen | Welt im Wandel: Globalisierung, Nachhaltigkeit und Frieden |

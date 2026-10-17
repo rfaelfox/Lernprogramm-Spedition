@@ -1,6 +1,6 @@
 # Projektstand
 
-Stand: 17.10.2026 · Version 0.5.0
+Stand: 17.10.2026 · Version 0.6.0
 
 ## Erledigt
 
@@ -15,11 +15,15 @@ Stand: 17.10.2026 · Version 0.5.0
 
 ## Offen
 
-- **Inhalte:** 43 von 75 Themen sind vollständig ausgearbeitet; 1. und 2. Lehrjahr (LF 1–10) sind komplett. LF 6 ist vorläufig für Luftfracht geschrieben, bis der Verkehrsträger der Schule feststeht (Stand 17.10.2026). Den aktuellen Stand zeigt [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md) und in der App „Abdeckung“. Nicht ausgearbeitete Themen sind dort ehrlich als „noch offen“ markiert.
+- **Inhalte:** Alle 75 Themen sind ausgearbeitet (68 Lerneinheiten, 774 Aufgaben, 736 Karteikarten; Stand 17.10.2026). 6 Themen stehen auf „zu prüfen“, weil einzelne Werte nicht an amtlicher Stelle bestätigt werden konnten: Gefahrgut ADR, Fahrzeugkosten (Maut), Entsorgungslogistik (neues Verpackungsrecht), Infrastruktur/Umwelt (EU-ETS 2), Globalisierung (Lieferkettengesetz) und der Verkehrsträger in LF 6 (vorläufig Luftfracht). Details in [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md).
 - **Zu klären:** Beginn und Ende der Ausbildung, ob am KBBZ Halberg ein eigener Lehrplan für die Lernfelder gilt und ob der WiSo-Lehrplan 2022 den von 2016 ersetzt. Notenschlüssel und Gewichtung der Schule (bis dahin IHK-Schlüssel als Annahme).
 
 ## Nächste Schritte
 
-1. 3. Lehrjahr (LF 11–15) und restliche WiSo-Themen ausarbeiten.
+1. Die 6 „zu prüfen“-Themen klären (Verkehrsträger LF 6 in der Schule erfragen, zeitabhängige Werte nachprüfen).
 2. Echte Noten, Klassenarbeiten und Stundenplanfächer eintragen, damit Lernplan und Notenrechner passen.
 3. Rückmeldungen aus dem Unterricht über „Fehler melden“ sammeln und Inhalte korrigieren.
+
+## Regelmäßig aktualisieren
+
+Zeitabhängige Werte (Sozialversicherung, Steuerfreibeträge, Mindestausbildungsvergütung, EZB-Leitzins, Inflation, Maut, CO₂-Preis, Gefahrgutregeln ICAO/IATA/ADR) stehen in der jeweiligen Einheit unter „Stand“ und sollten zu jedem Jahreswechsel geprüft werden.

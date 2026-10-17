@@ -124,46 +124,46 @@ export const areas = [
     id: 'LF11', kind: 'lf', no: 11, year: 3, hours: 40, source: 'kmk-rlp-2004',
     title: 'Importaufträge bearbeiten',
     topics: [
-      t('lf11-versandverfahren', 'Versandverfahren (Transit)'),
-      t('lf11-zollverfahren', 'Überlassung zum zollrechtlich freien Verkehr und Veredelung'),
-      t('lf11-einfuhrabgaben', 'Einfuhrabgaben und Zollaufschub')
+      t('lf11-versandverfahren', 'Versandverfahren (Transit)', ['lf11-versandverfahren']),
+      t('lf11-zollverfahren', 'Überlassung zum zollrechtlich freien Verkehr und Veredelung', ['lf11-zollverfahren']),
+      t('lf11-einfuhrabgaben', 'Einfuhrabgaben und Zollaufschub', ['lf11-einfuhrabgaben'])
     ]
   },
   {
     id: 'LF12', kind: 'lf', no: 12, year: 3, hours: 40, source: 'kmk-rlp-2004',
     title: 'Beschaffungslogistik anbieten und organisieren',
     topics: [
-      t('lf12-logistiksysteme', 'Logistische Subsysteme und Sourcing-Konzepte'),
-      t('lf12-bestellmenge', 'Bedarfsermittlung und optimale Bestellmenge'),
-      t('lf12-jit-abc', 'Just-in-time, Vorratshaltung und ABC-Analyse')
+      t('lf12-logistiksysteme', 'Logistische Subsysteme und Sourcing-Konzepte', ['lf12-logistiksysteme']),
+      t('lf12-bestellmenge', 'Bedarfsermittlung und optimale Bestellmenge', ['lf12-bestellmenge']),
+      t('lf12-jit-abc', 'Just-in-time, Vorratshaltung und ABC-Analyse', ['lf12-jit-abc'])
     ]
   },
   {
     id: 'LF13', kind: 'lf', no: 13, year: 3, hours: 80, source: 'kmk-rlp-2004',
     title: 'Distributionslogistik anbieten und organisieren',
     topics: [
-      t('lf13-kommissionierung', 'Kommissionierung und Versandvorbereitung'),
-      t('lf13-lagerkennzahlen', 'Lagerkennzahlen'),
-      t('lf13-tourenplanung', 'Tourenplanung'),
-      t('lf13-entsorgung', 'Entsorgungs- und Recyclinglogistik')
+      t('lf13-kommissionierung', 'Kommissionierung und Versandvorbereitung', ['lf13-versandvorbereitung']),
+      t('lf13-lagerkennzahlen', 'Lagerkennzahlen', ['lf13-distributionskennzahlen']),
+      t('lf13-tourenplanung', 'Tourenplanung', ['lf13-tourenplanung']),
+      t('lf13-entsorgung', 'Entsorgungs- und Recyclinglogistik', ['lf13-entsorgung'])
     ]
   },
   {
     id: 'LF14', kind: 'lf', no: 14, year: 3, hours: 40, source: 'kmk-rlp-2004',
     title: 'Marketingmaßnahmen entwickeln und durchführen',
     topics: [
-      t('lf14-marktforschung', 'Marktforschung und Kundenanalyse'),
-      t('lf14-marketingmix', 'Produkt-, Kommunikations- und Vertriebspolitik'),
-      t('lf14-qualitaet', 'Qualitätsmanagement')
+      t('lf14-marktforschung', 'Marktforschung und Kundenanalyse', ['lf14-marktforschung']),
+      t('lf14-marketingmix', 'Produkt-, Kommunikations- und Vertriebspolitik', ['lf14-marketingmix']),
+      t('lf14-qualitaet', 'Qualitätsmanagement', ['lf14-qualitaet'])
     ]
   },
   {
     id: 'LF15', kind: 'lf', no: 15, year: 3, hours: 80, source: 'kmk-rlp-2004',
     title: 'Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten',
     topics: [
-      t('lf15-infrastruktur', 'Verkehrsinfrastruktur und Umweltpolitik'),
+      t('lf15-infrastruktur', 'Verkehrsinfrastruktur und Umweltpolitik', ['lf15-infrastruktur']),
       t('lf15-wirtschaftspolitik', 'Ordnungs-, Geld-, Fiskal- und Arbeitsmarktpolitik', [], { alsoIn: ['wiso-w6-marktwirtschaft'] }),
-      t('lf15-waehrung', 'Währungsrisiken')
+      t('lf15-waehrung', 'Währungsrisiken', ['lf15-waehrung'])
     ]
   },
   {
@@ -172,18 +172,18 @@ export const areas = [
     note: 'Gliederung nach dem saarländischen WiSo-Lehrplan (Stand Juli 2016). Ein neuerer Stand (2022) ist auf saarland.de verlinkt und muss noch geprüft werden. Für die Prüfung zählt zusätzlich der Prüfungsbereich „Wirtschafts- und Sozialkunde“ der Ausbildungsordnung.',
     topics: [
       t('wiso-w1-ausbildung', 'W1 Sich in der Arbeitswelt zurechtfinden', ['wiso-ausbildungsvertrag'], { alsoIn: ['lf01-bbig'] }),
-      t('wiso-w2-wirtschaft', 'W2 Wirtschaftliche Zusammenhänge kennen'),
+      t('wiso-w2-wirtschaft', 'W2 Wirtschaftliche Zusammenhänge kennen', ['wiso-wirtschaft-grundlagen']),
       t('wiso-w3-mitbestimmung', 'W3 Den Betrieb aktiv mitgestalten', ['wiso-mitbestimmung-tarif']),
       t('wiso-w4-vertraege', 'W4 Die Rolle als Verbraucher ausüben', ['wiso-kaufvertrag'], { alsoIn: ['lf08-kaufvertrag'] }),
       t('wiso-w5-sozialversicherung', 'W5 Einkommen und Absicherung: Sozialversicherung', ['wiso-sozialversicherung'], { alsoIn: ['lf02-entgelt'] }),
       t('wiso-w5-einkommen', 'W5 Einkommen, Steuern und Haushaltsplanung', ['wiso-einkommensteuer']),
-      t('wiso-w6-marktwirtschaft', 'W6 Entscheidungen in der sozialen Marktwirtschaft'),
-      t('wiso-s1-gesellschaft', 'S1 In unserer Gesellschaft leben und handeln'),
-      t('wiso-s2-demokratie', 'S2 Die Entwicklung der Demokratie verstehen'),
-      t('wiso-s3-teilhabe', 'S3 An demokratischen Entscheidungsprozessen teilhaben'),
-      t('wiso-s4-politik', 'S4 Das politische System Deutschlands'),
-      t('wiso-s5-europa', 'S5 In Europa leben und arbeiten'),
-      t('wiso-s6-welt', 'S6 Die Welt im Wandel mitgestalten')
+      t('wiso-w6-marktwirtschaft', 'W6 Entscheidungen in der sozialen Marktwirtschaft', ['wiso-wirtschaftspolitik']),
+      t('wiso-s1-gesellschaft', 'S1 In unserer Gesellschaft leben und handeln', ['wiso-gesellschaft']),
+      t('wiso-s2-demokratie', 'S2 Die Entwicklung der Demokratie verstehen', ['wiso-demokratie-geschichte']),
+      t('wiso-s3-teilhabe', 'S3 An demokratischen Entscheidungsprozessen teilhaben', ['wiso-politische-teilhabe']),
+      t('wiso-s4-politik', 'S4 Das politische System Deutschlands', ['wiso-politisches-system']),
+      t('wiso-s5-europa', 'S5 In Europa leben und arbeiten', ['wiso-europa']),
+      t('wiso-s6-welt', 'S6 Die Welt im Wandel mitgestalten', ['wiso-globalisierung'])
     ]
   }
 ];

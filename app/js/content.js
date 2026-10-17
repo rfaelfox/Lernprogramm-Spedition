@@ -81,9 +81,11 @@ export function allUnits() { return Array.from(unitById.values()); }
 
 // Abdeckung: vollstaendig | teilweise | offen | pruefen
 export function topicCoverage(tp) {
-  const units = unitsOfTopic(tp.id);
+  // Ohne eigene Lerneinheit zählt die Einheit des verknüpften Themas (z. B. WiSo), damit nichts doppelt geschrieben wird.
+  let units = unitsOfTopic(tp.id);
+  if (!units.length) units = (tp.alsoIn || []).flatMap((o) => unitsOfTopic(o));
   if (tp.check || /zu prüfen/i.test(tp.title)) return 'pruefen';
-  if (!units.length) return tp.alsoIn?.some((o) => unitsOfTopic(o).length) ? 'teilweise' : 'offen';
+  if (!units.length) return 'offen';
   if (units.some((u) => u.status === 'pruefen')) return 'pruefen';
   if (units.every((u) => u.status === 'vollstaendig')) return 'vollstaendig';
   return 'teilweise';
