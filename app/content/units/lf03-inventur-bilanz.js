@@ -375,6 +375,24 @@ Die 300 Kundenpaletten (90.000 €) sind fremdes Eigentum und werden nicht erfas
           solution: 'Richtig sind A und B. Eingelagerte Güter bleiben Eigentum des Einlagerers. Würden sie erfasst, wären Vermögen, Bilanzsumme und Eigenkapital um 90.000 € zu hoch.'
         }
       ]
+    },
+    {
+      id: 'lf03-inventur-bilanz-a11', type: 'booking', difficulty: 2, points: 2,
+      q: `Ausblick auf das Buchen: Nach dem Bilanzstichtag kauft die Bliesgau Logistik e.K. eine gebrauchte Wechselbrücke für 6.500 € und bezahlt per Banküberweisung (Umsatzsteuer bleibt hier unberücksichtigt).
+
+Bilde den Buchungssatz. Wie verändert sich die Bilanz?`,
+      accounts: ['Fuhrpark', 'Bank', 'Kasse', 'Forderungen a. LL', 'Verbindlichkeiten a. LL', 'Eigenkapital', 'Darlehensschulden'],
+      entries: [
+        { side: 'S', account: 'Fuhrpark', amount: 6500 },
+        { side: 'H', account: 'Bank', amount: 6500 }
+      ],
+      hints: ['Welcher Bilanzposten wird größer, welcher kleiner?', 'Zugänge auf Aktivkonten stehen im Soll, Abgänge im Haben.'],
+      solution: `**Buchungssatz:** Fuhrpark 6.500 € an Bank 6.500 €
+
+- **Fuhrpark** ist ein Aktivkonto (Anlagevermögen). Die Wechselbrücke ist ein **Zugang** → Buchung im **Soll**.
+- **Bank** ist ein Aktivkonto (Umlaufvermögen). Das Guthaben nimmt ab, also **Abgang** → Buchung im **Haben**.
+
+Es ändert sich nur die Aktivseite: ein Posten steigt, ein anderer sinkt um denselben Betrag (**Aktivtausch**). Die Bilanzsumme bleibt gleich. Mehr dazu in der Einheit „Bestandskonten und Buchungssatz“.`
     }
   ],
   quiz: ['lf03-inventur-bilanz-a1', 'lf03-inventur-bilanz-a2', 'lf03-inventur-bilanz-a6', 'lf03-inventur-bilanz-a8', 'lf03-inventur-bilanz-a10'],

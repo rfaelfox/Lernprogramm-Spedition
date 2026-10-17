@@ -22,7 +22,7 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 
 ## Abdeckung
 
-75 Themen: Noch nicht ausgearbeitet: 72 · Vollständig ausgearbeitet: 2 · Quelle/Zuordnung prüfen: 1. 2 Lerneinheiten, 20 Aufgaben, 20 Karteikarten.
+75 Themen: Noch nicht ausgearbeitet: 62 · Vollständig ausgearbeitet: 12 · Quelle/Zuordnung prüfen: 1. 12 Lerneinheiten, 141 Aufgaben, 128 Karteikarten.
 
 | Bereich | Jahr | Thema | Status | Lerneinheiten |
 |---|---|---|---|---|
@@ -38,17 +38,17 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Tarifverhandlungen und Tarifvertrag | Noch nicht ausgearbeitet | – |
 | LF 2 Im Speditionsbetrieb mitarbeiten | 1 | Vermögensbildung und Einkommensteuererklärung | Noch nicht ausgearbeitet | – |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Inventur, Inventar und Bilanz | Vollständig ausgearbeitet | Inventur, Inventar und Bilanz |
-| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Bestandskonten und Buchungssatz | Noch nicht ausgearbeitet | lf03-buchen-bestandskonten |
+| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Bestandskonten und Buchungssatz | Vollständig ausgearbeitet | Bestandskonten und Buchungssatz |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Erfolgskonten und Gewinn- und Verlustrechnung | Noch nicht ausgearbeitet | – |
-| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Vorsteuer und Umsatzsteuer | Noch nicht ausgearbeitet | lf03-umsatzsteuer |
+| LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Vorsteuer und Umsatzsteuer | Vollständig ausgearbeitet | Vorsteuer und Umsatzsteuer |
 | LF 3 Geschäftsprozesse dokumentieren und Zahlungsvorgänge bearbeiten | 1 | Zahlungsverkehr und Zahlungsverzug | Noch nicht ausgearbeitet | – |
 | LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Verkehrsträger im Vergleich | Vollständig ausgearbeitet | Verkehrsträger im Vergleich |
-| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Frachtvertrag und Haftung nach HGB | Noch nicht ausgearbeitet | lf04-frachtvertrag-haftung |
+| LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Frachtvertrag und Haftung nach HGB | Vollständig ausgearbeitet | Frachtvertrag und Haftung nach HGB |
 | LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Grenzüberschreitender Straßengüterverkehr (CMR) | Noch nicht ausgearbeitet | – |
 | LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Lenk- und Ruhezeiten | Noch nicht ausgearbeitet | – |
 | LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Fahrzeug- und Ladeeinheitenplanung, Make or Buy | Noch nicht ausgearbeitet | – |
 | LF 4 Verkehrsträger vergleichen und Frachtaufträge im Güterkraftverkehr bearbeiten | 1 | Gefahrgut-Grundlagen (ADR) | Noch nicht ausgearbeitet | – |
-| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Ablauf des Sammelgutverkehrs und Rückrechnung | Noch nicht ausgearbeitet | lf05-sammelgut-ablauf |
+| LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Ablauf des Sammelgutverkehrs und Rückrechnung | Vollständig ausgearbeitet | Ablauf des Sammelgutverkehrs und Rückrechnung |
 | LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Speditionsvertrag, ADSp und Haftung | Noch nicht ausgearbeitet | – |
 | LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Systemverkehre, KEP-Dienste und Sendungsverfolgung | Noch nicht ausgearbeitet | – |
 | LF 5 Speditionsaufträge im Sammelgut- und Systemverkehr bearbeiten | 1 | Kaufmännisches Mahnverfahren | Noch nicht ausgearbeitet | – |
@@ -58,16 +58,16 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 | LF 6 Frachtaufträge eines weiteren Verkehrsträgers bearbeiten | 2 | Gefahrgut beim gewählten Verkehrsträger | Noch nicht ausgearbeitet | – |
 | LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Kostenarten-, Kostenstellen- und Kostenträgerrechnung | Noch nicht ausgearbeitet | – |
 | LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Fahrzeugkostenrechnung | Noch nicht ausgearbeitet | – |
-| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Deckungsbeitragsrechnung und Break-even | Noch nicht ausgearbeitet | lf07-deckungsbeitrag |
+| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Deckungsbeitragsrechnung und Break-even | Vollständig ausgearbeitet | Deckungsbeitragsrechnung und Break-even |
 | LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit | Noch nicht ausgearbeitet | – |
 | LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Kaufvertrag und Angebotsvergleich | Noch nicht ausgearbeitet | – |
 | LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Mangelhafte Lieferung und Lieferungsverzug | Noch nicht ausgearbeitet | – |
 | LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Finanzierung: Ratenkauf, Leasing, Bankkredit | Noch nicht ausgearbeitet | – |
-| LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerfunktionen, Lagerarten und Lagervertrag | Noch nicht ausgearbeitet | lf09-lager-grundlagen |
+| LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerfunktionen, Lagerarten und Lagervertrag | Vollständig ausgearbeitet | Lagerfunktionen, Lagerarten und Lagervertrag |
 | LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerorganisation und Lagerpapiere | Noch nicht ausgearbeitet | – |
 | LF 9 Lagerleistungen anbieten und organisieren | 2 | Förder- und Lagertechnik im Überblick | Noch nicht ausgearbeitet | – |
 | LF 9 Lagerleistungen anbieten und organisieren | 2 | Lagerkosten, Angebot und Abrechnung | Noch nicht ausgearbeitet | – |
-| LF 10 Exportaufträge bearbeiten | 2 | Incoterms® 2020 | Noch nicht ausgearbeitet | lf10-incoterms |
+| LF 10 Exportaufträge bearbeiten | 2 | Incoterms® 2020 | Vollständig ausgearbeitet | Incoterms® 2020 |
 | LF 10 Exportaufträge bearbeiten | 2 | Dokumenteninkasso und Akkreditiv | Noch nicht ausgearbeitet | – |
 | LF 10 Exportaufträge bearbeiten | 2 | Ausfuhrverfahren und Exportpapiere | Noch nicht ausgearbeitet | – |
 | LF 10 Exportaufträge bearbeiten | 2 | Container- und Frachtplanung im Seeverkehr | Noch nicht ausgearbeitet | – |
@@ -88,11 +88,11 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 | LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Verkehrsinfrastruktur und Umweltpolitik | Noch nicht ausgearbeitet | – |
 | LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Ordnungs-, Geld-, Fiskal- und Arbeitsmarktpolitik | Noch nicht ausgearbeitet | – |
 | LF 15 Speditionelle und logistische Geschäftsprozesse an wirtschaftlichen Rahmenbedingungen ausrichten | 3 | Währungsrisiken | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W1 Sich in der Arbeitswelt zurechtfinden | Noch nicht ausgearbeitet | wiso-ausbildungsvertrag |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W1 Sich in der Arbeitswelt zurechtfinden | Vollständig ausgearbeitet | Duales System und Berufsausbildungsvertrag |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W2 Wirtschaftliche Zusammenhänge kennen | Noch nicht ausgearbeitet | – |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W3 Den Betrieb aktiv mitgestalten | Noch nicht ausgearbeitet | – |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W4 Die Rolle als Verbraucher ausüben | Noch nicht ausgearbeitet | wiso-kaufvertrag |
-| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen und Absicherung: Sozialversicherung | Noch nicht ausgearbeitet | wiso-sozialversicherung |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W4 Die Rolle als Verbraucher ausüben | Vollständig ausgearbeitet | Geschäftsfähigkeit und Kaufvertrag |
+| WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen und Absicherung: Sozialversicherung | Vollständig ausgearbeitet | Die fünf Zweige der Sozialversicherung |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W5 Einkommen, Steuern und Haushaltsplanung | Noch nicht ausgearbeitet | – |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | W6 Entscheidungen in der sozialen Marktwirtschaft | Noch nicht ausgearbeitet | – |
 | WiSo Wirtschafts- und Sozialkunde (WiSo) | 1–3 | S1 In unserer Gesellschaft leben und handeln | Noch nicht ausgearbeitet | – |

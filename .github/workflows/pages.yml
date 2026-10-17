@@ -21,6 +21,8 @@ jobs:
           node-version: 22
       - name: Lerneinheiten prüfen
         run: node tools/build-index.mjs && git diff --exit-code app/content/units/index.js
+      - name: Musterlösungen prüfen
+        run: node tools/check-units.mjs
       - name: Logik-Tests
         run: node --test tests/unit.test.mjs
   deploy:

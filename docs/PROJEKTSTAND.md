@@ -14,7 +14,7 @@ Stand: 17.10.2026 · Version 0.1.0
 
 ## Offen
 
-- **Inhalte:** Erst wenige Themen sind vollständig ausgearbeitet. Den aktuellen Stand zeigt [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md) und in der App „Abdeckung“. Nicht ausgearbeitete Themen sind dort ehrlich als „noch offen“ markiert.
+- **Inhalte:** 12 von 75 Themen sind vollständig ausgearbeitet (Stand 17.10.2026). Den aktuellen Stand zeigt [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md) und in der App „Abdeckung“. Nicht ausgearbeitete Themen sind dort ehrlich als „noch offen“ markiert.
 - **Supabase:** Projekt anlegen und Project URL plus Publishable key eintragen (Anleitung: [DIENSTE-UND-KOSTEN.md](DIENSTE-UND-KOSTEN.md)). Danach Login auf PC und iPhone testen.
 - **GitHub Pages:** in den Repository-Einstellungen einschalten (Quelle: GitHub Actions) und die Adresse prüfen.
 - **Zu klären:** Beginn und Ende der Ausbildung, ob am KBBZ Halberg ein eigener Lehrplan für die Lernfelder gilt und ob der WiSo-Lehrplan 2022 den von 2016 ersetzt. Notenschlüssel und Gewichtung der Schule (bis dahin IHK-Schlüssel als Annahme).
