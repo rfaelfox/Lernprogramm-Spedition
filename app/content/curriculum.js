@@ -87,7 +87,8 @@ export const areas = [
       t('lf07-kostenarten', 'Kostenarten-, Kostenstellen- und Kostenträgerrechnung', ['lf07-kostenarten']),
       t('lf07-fahrzeugkosten', 'Fahrzeugkostenrechnung', ['lf07-fahrzeugkosten']),
       t('lf07-deckungsbeitrag', 'Deckungsbeitragsrechnung und Break-even', ['lf07-deckungsbeitrag']),
-      t('lf07-kennzahlen', 'Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit', ['lf07-kennzahlen'])
+      t('lf07-kennzahlen', 'Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit', ['lf07-kennzahlen']),
+      t('lf07-ust-unterricht', 'Umsatzsteuer buchen: Übungen aus dem Unterricht', ['lf07-umsatzsteuer-uebungen'], { alsoIn: ['lf03-ust'], school: true })
     ]
   },
   {

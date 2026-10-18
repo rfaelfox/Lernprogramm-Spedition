@@ -1,8 +1,10 @@
 // Versionsangaben. BUILD wird beim Veröffentlichen automatisch gesetzt (siehe .github/workflows/pages.yml).
-export const VERSION = '0.6.0';
+export const VERSION = '0.7.0';
 export const BUILD = 'dev';
 // Was ist neu (neueste zuerst). Wird beim Aktualisieren angezeigt.
 export const CHANGES = [
+  'Neue Lektion in LF 7: „Umsatzsteuer: Übungsaufgaben aus dem Unterricht“ mit allen Aufgaben deiner Arbeitsblätter (Mehrwertkette, Lückentext, Aufgaben 1 bis 5 mit dem Kontenrahmen der Modufa Spedition) und ausführlichen Lösungen.',
+  'Lerneinheiten zeigen jetzt, für welche Klassenarbeit sie zählen. Fehlt der Termin, kannst du ihn direkt in der Lektion eintragen; sie wird dann bis dahin im Lernplan eingeplant.',
   '23 neue Lerneinheiten: das komplette 3. Lehrjahr (LF 11 Import und Zoll, LF 12 Beschaffungslogistik, LF 13 Distribution, LF 14 Marketing und Qualität, LF 15 Infrastruktur, Wirtschaftspolitik und Währung) und alle WiSo-Bereiche (W2, W6, S1–S6).',
   'Alle 75 Themen sind jetzt ausgearbeitet; 6 davon sind wegen offener Detailfragen als „zu prüfen“ markiert.',
   '17 neue Lerneinheiten für das 1. Lehrjahr (Stoff der Zwischenprüfung): Ausbildungsordnung, Lerntechniken, Aufbauorganisation, Vollmachten, Arbeitsrecht, Entgeltabrechnung, Erfolgskonten, Zahlungsverkehr, CMR, Lenk- und Ruhezeiten, Gefahrgut (ADR), Fahrzeugplanung, Speditionsvertrag, Systemverkehre, Mahnverfahren sowie WiSo: Mitbestimmung und Tarif, Einkommensteuer.',

@@ -1,7 +1,7 @@
 import * as store from '../store.js';
 import * as C from '../content.js';
 import * as L from '../learning.js';
-import { esc, fmtDate, fmtDateTime } from '../util.js';
+import { esc, fmtDate, fmtDateTime, todayISO, addDays, daysBetween } from '../util.js';
 import { md } from '../md.js';
 import { icon, toast, dialog, progressBar, statusBadge, coverageBadge, safe } from '../ui.js';
 
@@ -83,6 +83,7 @@ async function unitPage(el, { app, query }, id) {
       <button class="btn icon" id="report" aria-label="Fehler im Lerninhalt melden" title="Fehler im Lerninhalt melden">${icon('flag')}</button></div></div>
     <div class="row small" style="margin:8px 0 14px">${statusBadge(m.level)}${coverageBadge(u.status)}<span class="muted">${u.minutes || 20} Min.</span>${u.validity ? `<span class="badge warn" title="${esc(u.validity.note)}">Stand ${esc(u.validity.asOf)}</span>` : ''}</div>
     ${u.validity ? `<div class="note warn small"><b>Zeitabhängige Werte:</b> ${esc(u.validity.note)}</div>` : ''}
+    <div id="examLink">${examCard(u)}</div>
     <div class="card flat"><b>Lernziele</b><ul>${(u.goals || []).map((g) => `<li>${esc(g)}</li>`).join('')}</ul></div>
     <div class="tabs no-print" role="tablist" style="margin-top:16px">${tabs.map(([k, l]) => `<button role="tab" aria-selected="${k === tab}" data-tab="${k}">${l}</button>`).join('')}</div>
     <div id="tabbody" class="prose"></div>`;
@@ -126,7 +127,58 @@ async function unitPage(el, { app, query }, id) {
     unitPage(el, { app, query: new URLSearchParams('tab=' + (el.querySelector('[aria-selected=true]')?.dataset.tab || 'erklaerung')) }, id);
   });
   el.querySelector('#report').onclick = () => reportDialog({ kind: 'unit', ref: u.id, title: u.title });
+  const redrawExam = () => { el.querySelector('#examLink').innerHTML = examCard(u); wireExamCard(el, u, redrawExam); };
+  wireExamCard(el, u, redrawExam);
   return () => L.logMinutes(Math.min(30, (Date.now() - started) / 60000), 'lesen');
+}
+
+// Verbindung zur nächsten Klassenarbeit: zeigt den Termin, für den die Einheit zählt,
+// oder bietet an, sie zu verknüpfen bzw. einen Termin für das Lernfeld einzutragen.
+function examCard(u) {
+  const exams = L.upcomingExams();
+  const today = todayISO();
+  const linked = exams.find((e) => L.examUnitIds(e).includes(u.id));
+  if (linked) {
+    const d = daysBetween(today, linked.date);
+    return `<div class="note ${d <= 7 ? 'warn' : ''}"><b>Für ${esc(linked.title)}</b> am ${fmtDate(linked.date)} (${d === 0 ? 'heute' : d === 1 ? 'morgen' : 'in ' + d + ' Tagen'}). Diese Einheit steht in deinem Lernplan bis zu diesem Termin.
+      <div class="row" style="margin-top:8px"><a class="btn small" href="#/plan">Lernplan ansehen</a><a class="btn small" href="#/ueben?exam=${linked.id}&mode=test">Generalprobe im Testmodus</a></div></div>`;
+  }
+  const same = exams.find((e) => (e.areas || []).includes(u.area));
+  if (same) return `<div class="note">${esc(same.title)} am ${fmtDate(same.date)} ist eingetragen, diese Einheit gehört aber noch nicht dazu.
+      <div class="row" style="margin-top:8px"><button class="btn small primary" data-exam-add="${same.id}">Mit diesem Termin verknüpfen</button></div></div>`;
+  if (!u.examPrep) return '';
+  const a = C.areaById.get(u.area);
+  return `<div class="note">Für ${esc(C.areaLabel(a))} ist noch keine ${esc(u.examPrep.kind)} eingetragen. Trag den Termin ein, dann plant die App diese Lektion bis dahin ein.
+      <div class="row" style="margin-top:8px"><button class="btn small primary" data-exam-new>${esc(u.examPrep.kind)} ${esc(C.areaLabel(a))} eintragen</button></div></div>`;
+}
+
+function wireExamCard(el, u, redraw) {
+  const add = el.querySelector('[data-exam-add]');
+  if (add) add.onclick = () => safe(async () => {
+    const e = store.get('exams', add.dataset.examAdd);
+    await store.put('exams', { ...e, units: Array.from(new Set([...(e.units || []), u.id])) });
+    redraw();
+  }, 'Mit dem Termin verknüpft');
+  const nw = el.querySelector('[data-exam-new]');
+  if (nw) nw.onclick = async () => {
+    const a = C.areaById.get(u.area);
+    const kind = u.examPrep.kind;
+    // Vorschlag: der Unterrichtstag in frühestens 7 Tagen
+    let def = addDays(todayISO(), 7);
+    if (u.examPrep.weekday) while (((new Date(def + 'T12:00').getDay() + 6) % 7) + 1 !== u.examPrep.weekday) def = addDays(def, 1);
+    const r = await dialog({
+      title: `${kind} ${C.areaLabel(a)} eintragen`,
+      body: `<div class="field"><label for="xd">Datum</label><input id="xd" type="date" name="date" required value="${def}" min="${todayISO()}"></div>
+        <div class="field"><label for="xn">Notiz (optional)</label><input id="xn" name="note" value="${esc(u.examPrep.note || '')}"></div>
+        <p class="small muted">Der Termin umfasst diese Lektion. Weitere Themen aus ${esc(C.areaLabel(a))} kannst du unter „Termine & Lernplan“ oder auf der jeweiligen Lerneinheit dazunehmen.</p>`,
+      actions: [{ label: 'Abbrechen', value: 'cancel' }, { label: 'Speichern', value: 'ok', primary: true }]
+    });
+    if (r.value !== 'ok') return;
+    const date = String(r.data.get('date') || '');
+    if (!date) { toast('Kein Datum angegeben. Nichts gespeichert.', 'bad'); return; }
+    await safe(() => store.put('exams', { title: `${kind} ${C.areaLabel(a)}`, kind, date, areas: [u.area], topics: [u.topic], units: [u.id], note: String(r.data.get('note') || ''), done: false, demo: false }), 'Termin gespeichert');
+    redraw();
+  };
 }
 
 export async function reportDialog({ kind, ref, title }) {

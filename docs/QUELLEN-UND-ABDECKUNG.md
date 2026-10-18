@@ -1,6 +1,6 @@
 # Quellen und Inhaltsabdeckung
 
-Automatisch erzeugt am 2026-10-17 mit `node tools/coverage-report.mjs`.
+Automatisch erzeugt am 2026-10-18 mit `node tools/coverage-report.mjs`.
 
 ## Quellen
 
@@ -22,7 +22,7 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 
 ## Abdeckung
 
-75 Themen: Vollständig ausgearbeitet: 69 · Quelle/Zuordnung prüfen: 6. 68 Lerneinheiten, 774 Aufgaben, 736 Karteikarten.
+76 Themen: Vollständig ausgearbeitet: 70 · Quelle/Zuordnung prüfen: 6. 69 Lerneinheiten, 785 Aufgaben, 750 Karteikarten.
 
 | Bereich | Jahr | Thema | Status | Lerneinheiten |
 |---|---|---|---|---|
@@ -60,6 +60,7 @@ Schulischer Rahmenlehrplan (KMK) und betrieblicher Ausbildungsrahmenplan (Ausbil
 | LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Fahrzeugkostenrechnung | Quelle/Zuordnung prüfen | Fahrzeugkostenrechnung für Lkw |
 | LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Deckungsbeitragsrechnung und Break-even | Vollständig ausgearbeitet | Deckungsbeitragsrechnung und Break-even |
 | LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit | Vollständig ausgearbeitet | Kennzahlen: Rentabilität, Cashflow, Wirtschaftlichkeit |
+| LF 7 Geschäftsprozesse erfolgsorientiert steuern | 2 | Umsatzsteuer buchen: Übungen aus dem Unterricht | Vollständig ausgearbeitet | Umsatzsteuer: Übungsaufgaben aus dem Unterricht |
 | LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Kaufvertrag und Angebotsvergleich | Vollständig ausgearbeitet | Beschaffung und Angebotsvergleich |
 | LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Mangelhafte Lieferung und Lieferungsverzug | Vollständig ausgearbeitet | Mangelhafte Lieferung und Lieferungsverzug |
 | LF 8 Betriebliche Beschaffungsvorgänge planen, steuern und kontrollieren | 2 | Finanzierung: Ratenkauf, Leasing, Bankkredit | Vollständig ausgearbeitet | Finanzierung: Bankkredit, Ratenkauf, Leasing |

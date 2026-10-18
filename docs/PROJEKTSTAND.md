@@ -1,6 +1,6 @@
 # Projektstand
 
-Stand: 17.10.2026 · Version 0.6.0
+Stand: 18.10.2026 · Version 0.7.0
 
 ## Erledigt
 
@@ -11,11 +11,12 @@ Stand: 17.10.2026 · Version 0.6.0
 - **Bereiche:** Lernen, Üben (8 Aufgabentypen, Übungs- und Testmodus, Fortsetzen), Karteikarten mit Wiederholungsplan, Meine Noten, Lernzettel, Lernplan mit Prüfungen, Materialien mit Texterkennung, Lexikon, Formelsammlung, Fehlerheft, Suche, Lesezeichen, Abdeckungsübersicht, Fehlermeldungen, Zurücksetzen der Übungsergebnisse.
 - **Tests:** Unit-Tests, Rechte-Test der Datenbank (fremder Benutzer sieht nichts) und Ende-zu-Ende-Tests im Browser bestehen.
 - **Veröffentlichung:** Quellcode im Repository `rfaelfox/Lernprogramm-Spedition`, veröffentlicht unter https://rfaelfox.github.io/Lernprogramm-Spedition/.
+- **Unterrichtsmaterial:** LF 7 hat eine eigene Lektion mit den Umsatzsteuer-Arbeitsblättern aus dem Unterricht. Lerneinheiten zeigen die zugehörige Klassenarbeit und können direkt mit einem Termin verknüpft werden.
 - **Updates:** Neue Versionen erscheinen in der App über den Knopf „Update“; Daten bleiben erhalten.
 
 ## Offen
 
-- **Inhalte:** Alle 75 Themen sind ausgearbeitet (68 Lerneinheiten, 774 Aufgaben, 736 Karteikarten; Stand 17.10.2026). 6 Themen stehen auf „zu prüfen“, weil einzelne Werte nicht an amtlicher Stelle bestätigt werden konnten: Gefahrgut ADR, Fahrzeugkosten (Maut), Entsorgungslogistik (neues Verpackungsrecht), Infrastruktur/Umwelt (EU-ETS 2), Globalisierung (Lieferkettengesetz) und der Verkehrsträger in LF 6 (vorläufig Luftfracht). Details in [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md).
+- **Inhalte:** Alle 76 Themen sind ausgearbeitet (69 Lerneinheiten; Stand 18.10.2026). 6 Themen stehen auf „zu prüfen“, weil einzelne Werte nicht an amtlicher Stelle bestätigt werden konnten: Gefahrgut ADR, Fahrzeugkosten (Maut), Entsorgungslogistik (neues Verpackungsrecht), Infrastruktur/Umwelt (EU-ETS 2), Globalisierung (Lieferkettengesetz) und der Verkehrsträger in LF 6 (vorläufig Luftfracht). Details in [QUELLEN-UND-ABDECKUNG.md](QUELLEN-UND-ABDECKUNG.md).
 - **Zu klären:** Beginn und Ende der Ausbildung, ob am KBBZ Halberg ein eigener Lehrplan für die Lernfelder gilt und ob der WiSo-Lehrplan 2022 den von 2016 ersetzt. Notenschlüssel und Gewichtung der Schule (bis dahin IHK-Schlüssel als Annahme).
 
 ## Nächste Schritte

@@ -28,6 +28,7 @@ export default [
   'lf07-fahrzeugkosten',
   'lf07-deckungsbeitrag',
   'lf07-kennzahlen',
+  'lf07-umsatzsteuer-uebungen',
   'lf08-angebotsvergleich',
   'lf08-stoerungen',
   'lf08-finanzierung',
